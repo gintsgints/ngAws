@@ -1,0 +1,25 @@
+{
+  "name": "ng-aws",
+  "main": "ngAws.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gintsgints/ngAws",
+  "authors": [
+    "Gints Polis <polis.gints@gmail.com>"
+  ],
+  "description": "Angular service to handle Amazon Web Services api",
+  "keywords": [
+    "facebook",
+    "facebook-api",
+    "service",
+    "angularjs",
+    "angular",
+    "ngAws",
+    "api",
+    "aws-sdk",
+    "sdk"
+  ],
+  "license": "GNU 2",
+  "dependencies": {
+    "angular": ">=1.0.0 <1.3.0"
+  }
+}

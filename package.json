@@ -1,0 +1,22 @@
+{
+  "name": "ngAws",
+  "version": "0.1.0",
+  "description": "Angular service to handle Amazon Web Services api",
+  "main": "ngAws.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gintsgints/ngAws.git"
+  },
+  "keywords": [
+    "Amazon",
+    "angularjs",
+    "service",
+    "ngAws"
+  ],
+  "author": "Gints Polis",
+  "license": "GNU 2",
+  "bugs": {
+    "url": "https://github.com/gintsgints/ngAws/issues"
+  },
+  "homepage": "https://github.com/gintsgints/ngAws"
+}
