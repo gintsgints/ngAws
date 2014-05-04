@@ -6,13 +6,14 @@ Amazon Web Services implementation for Angular
 Usage
 =====
 
-1. Include script
+* Include scripts
 
 ```html
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.0.0-rc.14.min.js"></script>
 <script src="scripts/services/ngAws.js"></script>
 ```
 
-2. Configure at app.js
+* Configure at app.js
 ```javascript
 'use strict';
 
@@ -29,7 +30,7 @@ angular.module('awsApp', [
 })
 ```
 
-3. Set token
+* Set token
 ```javascript
 $aws.setToken($facebook.getAuthResponse().accessToken, 'graph.facebook.com')
   .then(function (val) {
