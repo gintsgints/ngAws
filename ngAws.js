@@ -11,11 +11,13 @@ angular.module('ngAws', [])
     };
     var aws = null;
     var sts = null;
+    var dynamodb = null;
 
     // Private constructor
     function AwsService($q) {
       aws = AWS;
       sts = new AWS.STS();
+      dynamodb = new AWS.DynamoDB();
       var d = $q.defer();
 
       this.setToken = function(token, providerId) {
@@ -48,6 +50,9 @@ angular.module('ngAws', [])
       };
       this.getAWS = function () {
         return aws;
+      };
+      this.getDynamoDB = function() {
+        return dynamodb;
       };
     }
 
